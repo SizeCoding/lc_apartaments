@@ -8,6 +8,7 @@ Recruitment task for web developer job.
  - [Technologies](https://github.com/amakuu/lc_apartaments#Technologies)
 
 ## 2. Preview
+![alt text](https://github.com/amakuu/lc_apartaments/blob/master/s_1.png?raw=true)
 
 ## 3. Technologies
 
