@@ -1,0 +1,53 @@
+@media screen and (max-width: 1100px) {
+    .navbar{
+        display: none;
+    }
+    .top__section{
+        margin-top:25vh;
+    }
+    .header__container{
+        width: $pagewidth2;
+    }
+    .top__container{
+        width: $pagewidth2;
+    }
+    .bottom__container{
+        width: $pagewidth2;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .header__toggler{
+        display: block;
+    }
+    .top__section{
+        margin-top:15vh;
+    }
+    .header__logo{
+        margin-left: 5%;
+    }
+}
+
+@media screen and (min-width: 1100px) {
+    .top__section{
+        margin-top:30vh;
+    }
+    .navbar{
+        display: block;
+    }
+    .header__toggler{
+        display: none;
+    }
+    .header__container{
+        width: $pagewidth;
+    }
+    .top__container{
+        width: $pagewidth;
+    }
+    .bottom__container{
+        width: $pagewidth;
+    }
+    .header__logo{
+        margin-left: 0;
+    }
+}

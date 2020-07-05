@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apartamenty LC</title>
+    <meta name="author" content = "Grzegorz Dąbrowski">
+    <meta name="description" content = "Zadanie Rekrutacyjne SSI">
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="icon" href="./assets/favicon.png" type="image/x-icon"/>
+    <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="header header__static" id="header">
+        <div class="header__container">
+        
+            <img src="./assets/logo.png" alt="Apartamenty LC">
+            <div class="header__toggler" onclick="toggle()"><i class="fa fa-bars"></i></div>
+
+            <div class="navbar">
+
+                <div class="navbar__top">
+                    <div class="navbar__contact"><a href="tel:987654321">kontakt recepcja &nbsp;<i class="fa fa-phone" aria-hidden="true"></i>&nbsp; 987 654 321</a></div>
+                    <div class="navbar__social">
+                        <a href="#"><img src="./assets/facebook.svg" class="socialicon" alt="Facebook"></a>
+                        <a href="#"><img src="./assets/advisor.svg" class="socialicon" alt="Advisor"></a>
+                        <a href="#"><img src="./assets/booking.svg" class="socialicon" alt="Booking"></a>
+                    </div>
+                </div>
+
+                <div class="navbar__line"></div>
+                <div class="navbar__bottom">
+                    <a href="#">Strona Główna</a>
+                    <a href="#">Nasze apartamenty</a>
+                    <a href="#">Cennik / Rezerwacja</a>
+                    <a href="#">Opinie</a>
+                    <a href="#">O nas</a>
+                    <a href="#">Kontakt</a>
+                </div>
+            </div>
+        </div>
+        <div class="header__links" id="links">
+            <a href="#">Strona Główna</a>
+            <a href="#">Nasze apartamenty</a>
+            <a href="#">Cennik / Rezerwacja</a>
+            <a href="#">Opinie</a>
+            <a href="#">O nas</a>
+            <a href="#">Kontakt</a>
+        </div>
+    </div>
+    <div class="top">
+        <div class="top__container">
+            <div class="top__section">
+                <h1>Nowoczesne apartamenty</h1>
+                <h2>W nadmorskich miejscowościach</h2>
+                <form>
+                    <input placeholder=" Data przyjazdu:" class="textbox-n" type="text" onfocus="(this.type='date')" id="comingdate">
+                    <input placeholder=" Data wyjazdu:" class="textbox-n" type="text" onfocus="(this.type='date')" id="leavedate">
+                    <button type="submit">szukaj</button>
+                </form>
+                <div class="apartaments">
+                    <div class="apartaments__container">
+                    <div class="apartaments__block">
+                        <img src="./assets/pobierowo.jpg" alt="Apartamenty Pobierowo">
+                        <div class="apartaments__description">Apartamenty <span class="text__bold"> Pobierowo</span></div>
+                    </div>
+                    <div class="apartaments__block">
+                        <img src="./assets/szczecin.jpg" alt="Apartamenty Szczecin">
+                        <div class="apartaments__description">Apartamenty <span class="text__bold"> Szczecin</span></div>
+                    </div>
+                    <div class="apartaments__block">
+                        <img src="./assets/gdansk.jpg" alt="Apartamenty Gdańsk">
+                        <div class="apartaments__description">Apartamenty <span class="text__bold"> Gdańsk</span></div>
+                    </div>
+                    <div class="apartaments__block">
+                        <img src="./assets/jelenia-gora.jpg" alt="Apartamenty Jelenia Góra">
+                        <div class="apartaments__description">Apartamenty <span class="text__bold"> Jelenia Góra</span></div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bottom">
+        <div class="bottom__container">
+            <div class="bottom__description">
+                <h1><span class="text__normal">Apartamenty </span><span class="text__italic">LC</span></h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur laoreet augue eget pellentesque pulvinar. 
+                    Mauris faucibus tortor in lectus luctus rhoncus. Sed facilisis odio nec consectetur iaculis. Integer urna mauris, 
+                    varius at cursus sit amet, cursus sit amet ligula. Curabitur dignissim magna ut nibh laoreet, vel finibus purus finibus.
+                    Ut condimentum finibus tellus imperdiet placerat. Vestibulum lobortis condimentum odio, at commodo velit sagittis vitae.
+                </p>
+                <p> Donec eu erat felis. Mauris vitae imperdiet est. Pellentesque aliquet ligula a volutpat auctor. Etiam scelerisque felis a metus sollicitudin tempus.
+                    Phasellus posuere lectus dui, non vehicula erat consequat et. Donec pretium pretium imperdiet. Vestibulum tempus accumsan leo.
+                </p>
+            </div>
+            <div class="bottom__mosaic">
+                <img src="./assets/mozaika foto/fot-1.jpg" alt="Grupa Znajomych nad morzem">
+                <img src="./assets/mozaika foto/fot-2.jpg" alt="Apartamenty LC">
+                <img src="./assets/mozaika foto/fot-3.jpg" alt="Apartamenty LC">
+                <img src="./assets/mozaika foto/fot-4.jpg" alt="Apartamenty LC">
+            </div>
+        </div>
+    </div>
+    <script src="./scripts/hamburger.js"></script>
+    <script src="./scripts/navbar.js"></script>
+</body>
+</html>

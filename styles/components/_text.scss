@@ -1,0 +1,11 @@
+.text{
+    &__bold{
+            font-weight: 500;
+    }   
+    &__normal{
+            font-weight: 200;
+    }
+    &__italic{
+            font-style: italic;
+    }
+}

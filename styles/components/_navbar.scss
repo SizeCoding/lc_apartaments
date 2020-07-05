@@ -1,0 +1,57 @@
+.navbar{
+    width: 100%;
+    height: 100%;
+
+    &__top{
+        display: flex;
+        float: left;
+        justify-content: center;
+        align-items: center;
+        height: 50%;
+        width: 100%;
+    }
+
+    &__contact{
+        margin-left: 30%;
+        float: left;
+        font-style: italic;
+        a{
+            text-decoration: none;
+            color: rgba($color: #ffffff, $alpha: 0.3);
+        }
+        a:hover{
+            color: rgba($color: #ffffff, $alpha: 0.7);
+        }
+        
+    }
+    &__social{
+        width: 20%;
+        float: left;
+        a{
+            display: inline-grid;
+            margin-left: 10%;
+            img{
+                display: grid;
+                width: 24px;
+            }
+        }
+    }
+    &__bottom{
+        display:inline-flex;
+        height: 50%;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        a{
+            margin-left: 3%;
+            font-size: 0.9rem;
+            display:flex;
+            font-weight: 300;
+            color: white;
+            text-decoration: none;
+        }
+        a:hover {
+            color: $blue;
+        }
+    }
+}

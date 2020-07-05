@@ -1,0 +1,77 @@
+.top{
+    background-image: url('../assets/top-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    &__container{
+        margin: 0 auto;
+        padding-bottom: 15vh;
+        border: 1px solid transparent;
+        h1{
+            margin: 0;
+            color: white;
+            font-size: 2.6em;
+            text-shadow: 1px 1px 2px rgba($color: #000000, $alpha: 0.5); 
+        }
+        h2{
+            margin: 0;
+            color: white;
+            font-size: 1.6em;
+            font-weight: 200;
+            text-shadow: 1px 1px 2px rgba($color: #000000, $alpha: 0.5); 
+        }
+    }
+    &__section{
+        form{
+            margin-top: 2%;
+            input[type="text"], input[type="date"]{
+                width: 20vh;
+                height: 4vh;
+                margin-top: 2%;
+                float: left;
+                margin-left: 1%;
+                border-radius:5px;
+                border: 0;
+            }
+            button{
+                height: 4vh;
+                margin-top: 2%;
+                margin-left: 1%;
+                border-radius:5px;
+                width: 20vh;
+                background-color: #49155d;
+                color: white;
+                border: 0;
+            }
+            button:hover, button:active{
+                background-color: $buttonactive;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .top__container{
+        h1{
+            font-size: 2.0rem;
+        }
+        h2{
+            font-size: 1.0rem;
+        }
+    }
+    .top__section{
+        form{
+            input[type="text"], input[type="date"]{
+                width: 15vh;
+                height: 4vh;
+                font-size: 0.6rem;
+            }
+            button{
+                height: 4vh;
+                width: 15vh;
+                font-size: 0.8rem;
+            }
+        }
+    }
+}
